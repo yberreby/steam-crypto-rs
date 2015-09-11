@@ -3,6 +3,7 @@ name = "steam-crypto"
 version = "0.1.0"
 authors = ["Yohai Berreby (filsmick) <yohaiberreby@gmail.com>"]
 description = "A crypto library for interfacing with Steam's servers"
+repository = "https://github.com/filsmick/steam-crypto-rs"
 license = "MIT"
 
 [dependencies]
