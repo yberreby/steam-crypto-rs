@@ -1,6 +1,8 @@
 #![cfg_attr(not(test), allow(unused_imports, dead_code))]
+extern crate rustc_serialize;
+
 use super::symmetric_encrypt_with_iv;
-use rustc_serialize_::hex::FromHex;
+use self::rustc_serialize::hex::FromHex;
 
 const PLAIN_IV_HEX: &'static str = "7b2d7972d6eb4142edc26206b224089a";
 const KEY_HEX: &'static str = "d10f33200d2372699513478275400073715478ac3794339c8b526433479767de";

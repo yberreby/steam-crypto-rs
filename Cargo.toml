@@ -9,5 +9,7 @@ license = "MIT"
 [dependencies]
 rand = "*"
 openssl = "*"
-rustc-serialize = "*"
 pem-parser = "*"
+
+[dev-dependencies]
+rustc-serialize = "*"

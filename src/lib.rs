@@ -1,10 +1,8 @@
 extern crate pem_parser;
 extern crate openssl as openssl_;
 extern crate rand as rand_;
-extern crate rustc_serialize as rustc_serialize_;
 pub use self::openssl_ as openssl;
 pub use self::rand_ as rand;
-pub use self::rustc_serialize_ as rustc_serialize;
 
 use self::openssl::crypto::pkey::{PKey, EncryptionPadding};
 
