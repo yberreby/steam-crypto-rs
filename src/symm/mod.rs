@@ -1,4 +1,4 @@
-use openssl::crypto::symm::{self, Crypter, Mode, Type};
+use openssl::crypto::symm::{Crypter, Mode, Type};
 use rand::random;
 
 #[cfg(test)]
