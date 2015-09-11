@@ -2,3 +2,9 @@
 name = "steam-crypto"
 version = "0.1.0"
 authors = ["Yohai Berreby (filsmick) <yohaiberreby@gmail.com>"]
+
+[dependencies]
+rand = "*"
+openssl = "*"
+rustc-serialize = "*"
+pem-parser = "*"
